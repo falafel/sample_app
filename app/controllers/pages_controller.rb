@@ -6,6 +6,7 @@ class PagesController < ApplicationController
 
   def contact
     @title = "Contact"
+    return true
   end
 
   def about
